@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FaMester Teraszok</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+color:#333;
+background:#faf7f2;
+}
+
+.hero{
+height:80vh;
+background:
+linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin:0;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+background:#8b5a2b;
+color:white;
+padding:15px 35px;
+border-radius:30px;
+text-decoration:none;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:45px 20px;
+}
+
+h2{
+text-align:center;
+font-size:32px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+margin:20px 0;
+box-shadow:0 5px 20px #ddd;
+}
+
+.gallery{
+display:flex;
+overflow-x:auto;
+gap:20px;
+scroll-behavior:smooth;
+}
+
+.gallery img{
+min-width:320px;
+height:240px;
+object-fit:cover;
+border-radius:15px;
+}
+
+
+.services{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.services .card{
+flex:1;
+min-width:250px;
+}
+
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+
+button{
+background:#8b5a2b;
+color:white;
+border:0;
+padding:15px 30px;
+border-radius:25px;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="hero">
+
+<div>
+
+<h1>FaMester Teraszok</h1>
+
+<p>
+Megbízható munka, természetes fa, időtálló teraszok
+</p>
+
+<a class="btn" href="#ajanlat">
+Ingyenes ajánlatkérés
+</a>
+
+</div>
+
+</div>
+
+
+
+<section>
+
+<h2>Rólunk</h2>
+
+<div class="card">
+
+<p>
+Egyedi fedett teraszokat, pergolákat és fa kerti építményeket készítünk.
+Célunk a precíz kivitelezés és olyan terek létrehozása,
+ahol a család hosszú éveken át élvezheti a kert szépségét.
+</p>
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2>Szolgáltatásaink</h2>
+
+
+<div class="services">
+
+<div class="card">
+<h3>🪵 Fedett teraszok</h3>
+<p>
+Családi házakhoz illeszkedő fa szerkezetek.
+</p>
+</div>
+
+
+<div class="card">
+<h3>🌲 Pergolák</h3>
+<p>
+Rusztikus és modern kerti megoldások.
+</p>
+</div>
+
+
+<div class="card">
+<h3>🏡 Filagóriák</h3>
+<p>
+Hangulatos kerti pihenők természetes fából.
+</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2>Referencia munkák</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
+
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+
+<img src="https://images.unsplash.com/photo-1598902108854-10e335adac99">
+
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea">
+
+<img src="https://images.unsplash.com/photo-1598902108854-10e335adac99">
+
+</div>
+
+</section>
+
+
+
+
+<section id="ajanlat">
+
+<h2>Kérj ajánlatot</h2>
+
+
+<input placeholder="Név">
+
+<input placeholder="Telefonszám">
+
+<input placeholder="Település">
+
+
+<textarea placeholder="Milyen teraszt szeretnél?"></textarea>
+
+
+<button>
+Ajánlat elküldése
+</button>
+
+
+</section>
+
+
+</body>
+</html>
